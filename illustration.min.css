@@ -254,8 +254,6 @@ h1 {
     text-align: center;
     border-radius: 20px;
     border: 2px solid var(--rose);
-    
-    color: rgb(0, 0, 0);
 }
 
 ::placeholder {
