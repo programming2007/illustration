@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* colors */
+    --lightblue: #76ddff;
+    --lightgreen: rgb(132, 255, 132);
+    --orange: rgb(255, 136, 0);
+    --red: red;
+    --green: green;
+    --blue: blue;
+    --black: black;
+    --white: white;
+    --yellow: yellow;
+    --rose: rgb(255, 111, 135);
+    --brown: rgb(114, 50, 50);
+    --darkpurple: rgb(73, 0, 73);
+    --lightpurple: rgb(124, 0, 124);
+    --pink: rgb(255, 179, 191);
+    --darkgreen: rgb(0, 58, 0);
+    --darkblue: rgb(0, 4, 54);
+    --grey: rgb(187, 187, 187);
+
+    /* fonts */
+    --font-1: 'Ranchers', cursive;
+    --font-2: 'Redressed', cursive;
+    --font-3: 'Lobster', cursive;
+
+    /* font-sizes */
+    --font-smaller: 10px;
+    --font-small: 15px;
+    --font-normal: 20px;
+    --font-big: 40px;
+    --font-bigger: 50px;
+    --font-large: 60px;
+}
+
+.btn {
+    background-color: rgb(12, 0, 139);
+    border-radius: 20px;
+    border: 1px solid #a9fff1;
+    text-align: center;
+    color: white;
+    user-select: none;
+    /* padding: 5px; */
+    /* min-width: 100px; */
+    max-width: 180px;
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.btn:active {
+        transform: scale(.85);
+        border: 3px solid rgb(86, 48, 255);
+}
+
+h1 {
+    font-family: var(--font-3);
+}
+
+.lightblue-bg{
+    background-color: var(--lightblue);
+}
+
+.lightblue-clr {
+    color: var(--lightblue);
+}
+
+.lightgreen-bg{
+    background-color: var(--lightgreen);
+}
+
+.lightgreen-clr {
+    color: var(--lightgreen);
+}
+
+.orange-bg{
+    background-color: var(--orange);
+}
+
+.orange-clr {
+    color: var(--orange);
+}
+
+.red-bg{
+    background-color: var(--red);
+}
+
+.red-clr {
+    color: var(--red);
+}
+
+.green-bg{
+    background-color: var(--green);
+}
+
+.green-clr {
+    color: var(--green);
+}
+
+.blue-bg{
+    background-color: var(--blue);
+}
+
+.blue-clr {
+    color: var(--blue);
+}
+
+.black-bg{
+    background-color: var(--black);
+}
+
+.black-clr {
+    color: var(--black);
+}
+
+.white-bg{
+    background-color: var(--white);
+}
+
+.white-clr {
+    color: var(--white);
+}
+
+.white-bg{
+    background-color: var(--white);
+}
+
+.white-clr {
+    color: var(--white);
+}
+
+.yellow-bg{
+    background-color: var(--yellow);
+}
+
+.yellow-clr {
+    color: var(--yellow);
+}
+
+.rose-bg{
+    background-color: var(--rose);
+}
+
+.rose-clr {
+    color: var(--rose);
+}
+
+.brown-bg{
+    background-color: var(--brown);
+}
+
+.brown-clr {
+    color: var(--brown);
+}
+
+.darkpurple-bg{
+    background-color: var(--darkpurple);
+}
+
+.darkpurple-clr {
+    color: var(--darkpurple);
+}
+
+.lightpurple-bg{
+    background-color: var(--lightpurple);
+}
+
+.lightpurple-clr {
+    color: var(--lightpurple);
+}
+
+.pink-bg{
+    background-color: var(--pink);
+}
+
+.pink-clr {
+    color: var(--pink);
+}
+
+.darkgreen-bg{
+    background-color: var(--darkgreen);
+}
+
+.darkgreen-clr {
+    color: var(--darkgreen);
+}
+
+.darkblue-bg{
+    background-color: var(--darkblue);
+}
+
+.darkblue-clr {
+    color: var(--darkblue);
+}
+
+.grey-bg{
+    background-color: var(--grey);
+}
+
+.grey-clr {
+    color: var(--grey);
+}
+
+.font1 {
+    font-family: var(--font-1);
+}
+
+.font2 {
+    font-family: var(--font-2);
+}
+
+.font3 {
+    font-family: var(--font-3);
+}
+
+.fontsmaller {
+    font-size: var(--font-smaller);
+}
+
+.fontsmall {
+    font-size: var(--font-small);
+}
+
+.fontnormal {
+    font-size: var(--font-normal);
+}
+
+.fontbig {
+    font-size: var(--font-big);
+}
+
+.fontbigger {
+    font-size: var(--font-bigger);
+}
+
+.fontlarge {
+    font-size: var(--font-large);
+}
+
+.input {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid var(--rose);
+    
+    color: rgb(0, 0, 0);
+}
+
+::placeholder {
+    color: white;
+}
+
+.input:focus {
+    box-shadow: 12px 9px 15px rgb(98, 98, 98);
+}
+
+.rect {
+    width: 200px;
+    height: 100px;
+    border: 3px solid var(--green);
+    background-color: var(--lightgreen);
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 3px solid var(--blue);
+    background-color: var(--lightblue);
+}
+
+.ellipse {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid var(--darkpurple);
+    background-color: var(--lightpurple);
+}
+
+.heart {
+    width: 180px;
+	height: 100px;
+	background-color: #ff0000;
+	transform-origin: right bottom;
+    border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.heart::before {
+    content: '';
+	position: absolute;
+	width: 180px;
+	height: 100px;
+	background-color: rgb(255, 0, 0);
+	transform-origin: right bottom;
+    position: absolute;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	transform: rotate(450deg) translateY(100px);
+}
+
+.triangle {
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid rgb(0, 255, 255);
+}
+
+.parallelogram {
+    width: 200px;
+	height: 100px;
+	transform: skew(20deg);
+	background: rgb(255, 0, 212);
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background: rgb(255, 251, 0);
+    border-radius: 100px / 50px;
+}
+
+
+.talk {
+    width: 120px;
+    height: 80px;
+    background: rgb(72, 255, 0);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .talk:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid rgb(51, 255, 0);
+    border-bottom: 13px solid transparent;
+  }
+
+  .moon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px red;
+  }
+
+  .trapezoid {
+      border-bottom: 100px solid green;
+      border-right: 25px solid transparent;
+      border-left: 25px solid transparent;
+  }
